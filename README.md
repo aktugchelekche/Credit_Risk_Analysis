@@ -4,24 +4,24 @@ Credit Risk Analysis with Machine Learning
 
 ## Overview of the analysis
 
-The purpose of this analyisis is to build several Machine Learning models and algoriths to predict credit risk for loan applications. After completion of this analyisis, approving or denying application for loan will be more efficient, accurate and also lower default rates. I will utilize Python and Scikit-learn libraries and several machine learning models to compare the ML models and determine how well each model classifies and predicts data.
+The purpose of this analysis is to build several Machine Learning models and algorithms to predict credit risk for loan applications. After completion of this analysis, approving or denying application for loan will be more efficient, accurate and lower default rates. I will utilize Python and Scikit-learn libraries and several machine learning models to compare the ML models and determine how well each model classifies and predicts data.
 
 # Results
 In this project, I am utilizing following models and algorithms to find best prediction model for credit risk analysis:
 * Oversampling Models    :  RandomOverSampler and SMOTE algorithms.
 * Undersampling Model    :  ClusterCentroids algorithm.
 * Combining Models       : SMOTEENN algorithm that combines the SMOTE and Edited Nearest Neighbors (ENN) algorithms. 
-* Compareing Models      : BalancedRandomForestClassifier and EasyEnsembleClassifier.
+* Comparing Models      : BalancedRandomForestClassifier and EasyEnsembleClassifier.
 
 After applying exploratory data analysis with <strong>Pandas and Numpy</strong> for the dataset, I am using the <strong>imbalanced-learn</strong> and </trong>scikit-learn </strong>libraries for evaluating three machine learning models by using resampling to determine which is better at predicting credit risk. 
-I will start the analysis with  <strong> RandomOverSampler</strong> and <strong>SMOTE Oversampling</strong> algorithms,and then use the undersampling <strong>ClusterCentroids</strong>algorithm. Using these algorithms, I will resample the dataset, view the count of the target classes, train a logistic regression classifier lastly compare each model to determine best model that fit for these analysis. 
+I will start the analysis with <strong> RandomOverSampler</strong> and <strong>SMOTE Oversampling</strong> algorithms, and then use the undersampling <strong>ClusterCentroids</strong>algorithm. Using these algorithms, I will resample the dataset, view the count of the target classes, train a logistic regression classifier lastly compare each model to determine best model that fit for this analysis. 
 
 Note: A random state of 1 for each sampling algorithm to ensure consistency between tests. 
 
 
 ### Naive Random Oversampling VS SMOTE Oversampling:
 
-In this section, foll0wing metrics will be  provided in order to discover which algorithm results in the best performance between <strong>Naive random oversampling algorithm</strong> and <strong>the SMOTE algorithm</strong>
+In this section, foll0wing metrics will be provided in order to discover which algorithm results in the best performance between <strong>Naive random oversampling algorithm</strong> and <strong>the SMOTE algorithm</strong>
 
 1. Calculate the balanced accuracy score from <code>sklearn.metrics</code>
 2. Calculate the confusion matrix from <code>sklearn.metrics</code>
@@ -75,7 +75,7 @@ In this section, foll0wing metrics will be  provided in order to discover which 
 </table>
 
 ### Cluster Centroids Undersampling VS SMOTEENN :
-In this section,  following metrics will be  provided in order to discover which algorithm results in the best performance between <strong>Cluster Centroids</strong> undersampling and <strong> SMOTEENN</strong>.
+In this section, following metrics will be  provided in order to discover which algorithm results in the best performance between <strong>Cluster Centroids</strong> undersampling and <strong> SMOTEENN</strong>.
 1. Calculate the balanced accuracy score from <code>sklearn.metrics</code>
 2. Calculate the confusion matrix from <code>sklearn.metrics</code>
 3. Generate a classication report using the  <code>imbalanced_classification_report </code> from <code>imbalanced-learn</code>.
@@ -176,14 +176,17 @@ In this section, foll0wing metrics will be  provided in order to discover which 
 
 
 # Summary 
-#### Before moving forward with a summary report, I would like to point out a few reminder regarding following metrics :
+#### Before moving forward with a summary report, I would like to point out a few reminders regarding following metrics:
 1) Classifying a single point can result in a true positive (truth = 1, guess = 1), a true negative (truth = 0, guess = 0), a false positive (truth = 0, guess = 1), or a false negative (truth = 1, guess = 0).
 2) Accuracy measures how many classifications your algorithm got correct out of every classification it made.
 3) Recall measures the percentage of the relevant items your classifier was able to successfully find.
-4) Precision measures the percentage of items your classifier found that were actually relevant.
+4) Precision measures the percentage of items your classifier found that were relevant.
 5) Precision and recall are tied to each other. As one goes up, the other will go down.
 6) F1 score is a combination of precision and recall.
 7) F1 score will be low if either precision or recall is low.
+
+I have created 6 different algorithms and models to discover optimum way to predict credit risk. Comparing <code> Accuracy Scores </code> for each model would be a quick and efficient way to decide which model would perform better than others for this data set. We can observe that <strong>Easy Ensemble AdaBoost Classifier</strong> is performed significantly better than the other models as its <code> Accuracy Scores </code> is around <strong>92%</strong>. However, despite of having high score the <code> F-Score </code> is relatively low as <strong>0.16</strong>. Having a low precision would cause low risk loans to be labeled as high risk falsely. Making wrong decision on loan application will decrease the revenue and trustworthiness of the bank.
+Therefore, I would reject using these algorithms as decision mechanisms for predicting credit risk for loan applications. My recommendation would be creating larger scale dataset with more features and better selections on features to improve Precision and F1 scores which improve confidence of our machine learning algorithms.
 
 
 
@@ -193,10 +196,6 @@ In this section, foll0wing metrics will be  provided in order to discover which 
 * Data Source: [ LoanStats_2019Q1.csv ](https://github.com/aktugchelekche/Credit_Risk_Analysis/blob/main/Resources/LoanStats_2019Q1.csv)
 * Software/Languages: Jupyter Notebook- Google Colab, Python
 * Libraries: Scikit-learn
-
-
-
-
 
 
 
