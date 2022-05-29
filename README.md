@@ -46,13 +46,30 @@ In this part, follwing metrics will be  provided in order to discover which algo
                <li>Low risk: 0.62</li></ul></li>
              </ul>
     </td>
-    <td>Maria Anders</td>
+    <td> <ul>
+        <li>Accuracy score: 0.65</li>
+        <li>Precision
+             <ul><li> High risk: 0.01</li>
+               <li>Low risk: 1.00</li></ul></li>
+        <li>Recall
+             <ul><li> High risk: 0.61</li>
+               <li>Low risk: 0.69</li></ul></li>
+             </ul>
+    </td></td>
    
   </tr>
   <tr>
-    <td><img src="https://user-images.githubusercontent.com/98676400/170881598-a3bae573-f7fe-4a89-bbd9-09af37992b6a.png"
+    <td><img width="95%"src="https://user-images.githubusercontent.com/98676400/170881910-98cae128-cb06-4513-b362-a6471cd11459.png"</img>
 </td>
-    <td>Francisco Chang</td>
+    <td><img width="95%"src="https://user-images.githubusercontent.com/98676400/170882298-1d61bdef-fc52-4e38-8690-a2358cd8beaf.png"</img></td>
+
+  
+ 
+  </tr>
+   <tr>
+    <td><img width="95%"src="https://user-images.githubusercontent.com/98676400/170881853-0d1cc815-fca4-4d76-9b0e-bd61c8644feb.png"</img>
+    </td>
+    <td><img width="95%"src="https://user-images.githubusercontent.com/98676400/170882376-36bc1f62-4b54-4d41-ab5a-a56c91e4b8f6.png"</img></td>
  
   </tr>
 </table>
