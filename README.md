@@ -55,22 +55,25 @@ In this part, follwing metrics will be  provided in order to discover which algo
              <ul><li> High risk: 0.61</li>
                <li>Low risk: 0.69</li></ul></li>
              </ul>
-    </td></td>
+    </td>
    
   </tr>
-  <tr>
-    <td><img width="95%"src="https://user-images.githubusercontent.com/98676400/170881910-98cae128-cb06-4513-b362-a6471cd11459.png"</img>
-</td>
-    <td><img width="95%"src="https://user-images.githubusercontent.com/98676400/170882298-1d61bdef-fc52-4e38-8690-a2358cd8beaf.png"</img></td>
-
   
- 
-  </tr>
-   <tr>
-    <td><img width="95%"src="https://user-images.githubusercontent.com/98676400/170881853-0d1cc815-fca4-4d76-9b0e-bd61c8644feb.png"</img>
+  <tr>
+    <td><img width="95%"src="https://user-images.githubusercontent.com/98676400/170883607-7eb4241b-6fdb-46cd-8630-98defc1c7418.png"</img>
     </td>
-    <td><img width="95%"src="https://user-images.githubusercontent.com/98676400/170882376-36bc1f62-4b54-4d41-ab5a-a56c91e4b8f6.png"</img></td>
- 
+    <td><img width="95%"src="https://user-images.githubusercontent.com/98676400/170883629-4099a1a5-3fca-42ce-bbc8-ac54e656f13a.png"</img>
+    </td>
+  </tr>
+  
+  <tr>
+    <td><img width="95%"src="https://user-images.githubusercontent.com/98676400/170883658-562cf2ee-6484-4064-ad9b-04d2ab3f3fca.png"</img>
+    </td>
+     <td><img width="95%"src="https://user-images.githubusercontent.com/98676400/170883792-edb525fb-7151-46f1-a86f-ef5ba51b9cbc.png"</img>
+    </td>
+
+   
+
   </tr>
 </table>
 
@@ -105,7 +108,7 @@ In this section,  following metrics will be  provided in order to discover which
              <ul><li> High risk: 0.71</li>
                <li>Low risk: 0.57</li></ul></li>
              </ul>
-    </td></td>
+    </td>
    
   </tr>
   <tr>
@@ -113,9 +116,6 @@ In this section,  following metrics will be  provided in order to discover which
 </td>
     <td><img width="95%"src="https://user-images.githubusercontent.com/98676400/170883266-0f1a493e-3cc5-4a12-8750-192ecc7c6244.png"</img></td>
 
-
-
- 
   </tr>
    <tr>
     <td><img width="95%"src="https://user-images.githubusercontent.com/98676400/170883388-96002873-c986-431c-8691-1668731c36af.png"</img>
