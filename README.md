@@ -22,9 +22,9 @@ I will start with the oversampling <strong> RandomOverSampler</strong> and <stro
 Note: A random state of 1 for each sampling algorithm to ensure consistency between tests. 
 
 
-### Naive Random Oversampling VS SMOTE Oversampling
+### Naive Random Oversampling VS SMOTE Oversampling:
 
-In this part, follwing metrics will be  provided in order to discover which algorithm results in the best performance between <strong>Naive random oversampling algorithm</strong> and <strong>the SMOTE algorithm</strong>
+In this section, foll0wing metrics will be  provided in order to discover which algorithm results in the best performance between <strong>Naive random oversampling algorithm</strong> and <strong>the SMOTE algorithm</strong>
 
 1. Calculate the balanced accuracy score from <code>sklearn.metrics</code>
 2. Calculate the confusion matrix from <code>sklearn.metrics</code>
@@ -77,7 +77,7 @@ In this part, follwing metrics will be  provided in order to discover which algo
   </tr>
 </table>
 
-### Cluster Centroids Undersampling VS SMOTEENN 
+### Cluster Centroids Undersampling VS SMOTEENN :
 In this section,  following metrics will be  provided in order to discover which algorithm results in the best performance between <strong>Cluster Centroids</strong> undersampling and <strong> SMOTEENN</strong>.
 1. Calculate the balanced accuracy score from <code>sklearn.metrics</code>
 2. Calculate the confusion matrix from <code>sklearn.metrics</code>
@@ -125,8 +125,55 @@ In this section,  following metrics will be  provided in order to discover which
   </tr>
 </table>
 
+### Balanced Random Forest Classifier VS Easy Ensemble AdaBoost Classifier:
 
+In this section, foll0wing metrics will be  provided in order to discover which algorithm results in the best performance between <strong>Balanced Random Forest Classifier</strong> and <strong>Easy Ensemble AdaBoost Classifier</strong>
 
+1. Calculate the balanced accuracy score from <code>sklearn.metrics</code>
+2. Calculate the confusion matrix from <code>sklearn.metrics</code>
+3. Generate a classication report using the  <code>imbalanced_classification_report </code> from <code>imbalanced-learn</code>.
+
+<table>
+  <tr>
+    <th>Balanced Random Forest Classifier </th>
+    <th>Easy Ensemble AdaBoost Classifier </th>
+  </tr>
+  <tr>
+    <td> <ul>
+        <li>Accuracy score: 0.79</li>
+        <li>Precision
+             <ul><li> High risk: 0.03</li>
+               <li>Low risk: 1.00</li></ul></li>
+        <li>Recall
+             <ul><li> High risk: 0.70</li>
+               <li>Low risk: 0.87</li></ul></li>
+             </ul>
+    </td>
+    <td> <ul>
+        <li>Accuracy score: 0.93</li>
+        <li>Precision
+             <ul><li> High risk: 0.09</li>
+               <li>Low risk: 1.00</li></ul></li>
+        <li>Recall
+             <ul><li> High risk: 0.92</li>
+               <li>Low risk: 0.94</li></ul></li>
+             </ul>
+    </td>
+   
+  </tr>
+  <tr>
+    <td><img width="95%"src="https://user-images.githubusercontent.com/98676400/170884277-ac585c51-d01d-48fe-bd29-0d11c66d2cf8.png"</img>
+    </td>
+    <td><img width="95%"src="https://user-images.githubusercontent.com/98676400/170884296-68f6ccf9-6e28-44d9-badb-72dc1ffa0676.png"</img>
+    </td>
+  </tr>
+  <tr>
+    <td><img width="95%"src="https://user-images.githubusercontent.com/98676400/170884323-12350b60-c3a2-4cdc-b728-b3de5f593720.png"</img>
+    </td>
+    <td><img width="95%"src="https://user-images.githubusercontent.com/98676400/170884336-52aaa365-51b1-438e-8d7e-625b0d5a9f6a.png"</img></td>
+
+  </tr>
+</table>
 
 
 
