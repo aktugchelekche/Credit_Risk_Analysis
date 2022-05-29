@@ -11,4 +11,16 @@ The purpose of this analyisis is to build several Machine Learning models and al
 
 
 
+## Resources 
+
+* Data Source: [ LoanStats_2019Q1.csv ](https://github.com/aktugchelekche/Credit_Risk_Analysis/blob/main/Resources/LoanStats_2019Q1.csv)
+* Software/Languages: Jupyter Notebook- Google Colab, Python
+* Libraries: Scikit-learn
+
+
+
+
+
+
+
 
