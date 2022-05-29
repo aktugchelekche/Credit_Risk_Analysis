@@ -74,9 +74,56 @@ In this part, follwing metrics will be  provided in order to discover which algo
   </tr>
 </table>
 
+### Cluster Centroids Undersampling VS SMOTEENN 
+In this section,  following metrics will be  provided in order to discover which algorithm results in the best performance between <strong>Cluster Centroids</strong> undersampling and <strong> SMOTEENN</strong>.
+1. Calculate the balanced accuracy score from <code>sklearn.metrics</code>
+2. Calculate the confusion matrix from <code>sklearn.metrics</code>
+3. Generate a classication report using the  <code>imbalanced_classification_report </code> from <code>imbalanced-learn</code>.
+
+<table>
+  <tr>
+    <th>Cluster Centroids Undersampling </th>
+    <th>SMOTEENN Combination (Over and Under) Sampling </th>
+  </tr>
+  <tr>
+    <td> <ul>
+        <li>Accuracy score: 0.54</li>
+        <li>Precision
+             <ul><li> High risk: 0.01</li>
+               <li>Low risk: 1.00</li></ul></li>
+        <li>Recall
+             <ul><li> High risk: 0.69</li>
+               <li>Low risk: 0.40</li></ul></li>
+             </ul>
+    </td>
+    <td> <ul>
+        <li>Accuracy score: 0.64</li>
+        <li>Precision
+             <ul><li> High risk: 0.01</li>
+               <li>Low risk: 1.00</li></ul></li>
+        <li>Recall
+             <ul><li> High risk: 0.71</li>
+               <li>Low risk: 0.57</li></ul></li>
+             </ul>
+    </td></td>
+   
+  </tr>
+  <tr>
+    <td><img width="95%"src="https://user-images.githubusercontent.com/98676400/170883247-8f46ae17-ab31-4b26-b558-88fcf6471e3f.png"</img>
+</td>
+    <td><img width="95%"src="https://user-images.githubusercontent.com/98676400/170883266-0f1a493e-3cc5-4a12-8750-192ecc7c6244.png"</img></td>
 
 
 
+ 
+  </tr>
+   <tr>
+    <td><img width="95%"src="https://user-images.githubusercontent.com/98676400/170883388-96002873-c986-431c-8691-1668731c36af.png"</img>
+    </td>
+    <td><img width="95%"src="https://user-images.githubusercontent.com/98676400/170883406-9bf189e5-c707-4f4e-9579-d0f94192ea31.png"</img></td>
+ 
+  </tr>
+</table>
 
 
 
