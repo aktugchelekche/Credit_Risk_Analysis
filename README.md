@@ -178,11 +178,20 @@ In this section, foll0wing metrics will be  provided in order to discover which 
 
 
 
+# Summary 
+#### Before moving forward with a summary report, I would like to point out a few reminder regarding following metrics :
+1) Classifying a single point can result in a true positive (truth = 1, guess = 1), a true negative (truth = 0, guess = 0), a false positive (truth = 0, guess = 1), or a false negative (truth = 1, guess = 0).
+2) Accuracy measures how many classifications your algorithm got correct out of every classification it made.
+3) Recall measures the percentage of the relevant items your classifier was able to successfully find.
+4) Precision measures the percentage of items your classifier found that were actually relevant.
+5) Precision and recall are tied to each other. As one goes up, the other will go down.
+6) F1 score is a combination of precision and recall.
+7) F1 score will be low if either precision or recall is low.
 
 
 
 
-## Resources 
+# Resources 
 
 * Data Source: [ LoanStats_2019Q1.csv ](https://github.com/aktugchelekche/Credit_Risk_Analysis/blob/main/Resources/LoanStats_2019Q1.csv)
 * Software/Languages: Jupyter Notebook- Google Colab, Python
