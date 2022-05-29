@@ -14,10 +14,7 @@ In this project, I am utilizing following models and algorithms to find best pre
 * Compareing Models      : BalancedRandomForestClassifier and EasyEnsembleClassifier.
 
 After applying exploratory data analysis with <strong>Pandas and Numpy</strong> for the dataset, I am using the <strong>imbalanced-learn</strong> and </trong>scikit-learn </strong>libraries for evaluating three machine learning models by using resampling to determine which is better at predicting credit risk. 
-I will start with the oversampling <strong> RandomOverSampler</strong> and <strong>SMOTE </strong>algorithms, and then use the undersampling <strong>ClusterCentroids</strong> algorithm. Using these algorithms, resample the dataset, view the count of the target classes, train a logistic regression classifier for :
-* Calculate the balanced accuracy score.
-* Generate a confusion matrix.
-* Generate a classification report.
+I will start the analysis with  <strong> RandomOverSampler</strong> and <strong>SMOTE Oversampling</strong> algorithms,and then use the undersampling <strong>ClusterCentroids</strong>algorithm. Using these algorithms, I will resample the dataset, view the count of the target classes, train a logistic regression classifier lastly compare each model to determine best model that fit for these analysis. 
 
 Note: A random state of 1 for each sampling algorithm to ensure consistency between tests. 
 
