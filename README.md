@@ -2,7 +2,7 @@
 
 Credit Risk Analysis with Machine Learning 
 
-## Overview of the analysis
+# Overview of the Analysis
 
 The purpose of this analysis is to build several Machine Learning models and algorithms to predict credit risk for loan applications. After completion of this analysis, approving or denying application for loan will be more efficient, accurate and lower default rates. I will utilize Python and Scikit-learn libraries and several machine learning models to compare the ML models and determine how well each model classifies and predicts data.
 
